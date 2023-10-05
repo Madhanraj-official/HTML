@@ -1,0 +1,64 @@
+*{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+        
+}
+body
+{
+        background-color: gray;
+}
+div
+{
+        display: inline-block;
+        height: auto;
+}
+.header
+{
+        position: fixed;
+        top: 0;
+        left:1;
+        right:1;
+        display: inline-block;
+        width: 100%;
+        padding: 20px ;
+        display: flex;
+        
+        align-items: center;
+        background-color: black;
+
+}
+.header img
+{
+        height: 30px;
+        width: 30px
+        
+}        ;
+
+.navigation
+{
+        margin-left: 65%;
+        display: inline-block;
+}
+.navigation a
+{
+        margin-left: 15px;
+        right: 10px;
+        text-decoration: none;
+        color: gray;
+
+}
+.navigation a:hover
+{
+        color: white;
+}
+.header #logo
+{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+}
+p
+{
+        color: white;
+}

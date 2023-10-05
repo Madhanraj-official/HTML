@@ -1,0 +1,91 @@
+*
+{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+}
+body
+{
+        background-color:white;
+}
+.header
+{
+          align-items: center;
+          top: 0;
+          height: 50px;
+          display: flex;
+          position: fixed;
+          width: 100%;
+          justify-content: space-between;
+          background-color: black;
+         
+}
+.header a img{
+        height: 50px;
+        width: 150px;
+        
+        
+      
+}
+.navigation{padding: 10px;}
+.navigation a
+{
+        text-decoration: none;
+        margin-left: 10px;
+        padding: 10px;
+        color:gray;
+        
+}
+.navigation a:hover{color: #fff;}
+#whatsapp
+{
+        height: 8cm;
+        width: 100%;
+}
+p
+{
+        margin: 10px;
+        text-align: start;
+        color: white;
+}
+#selfmessage
+{
+        height: 9cm;
+        width: 10cm;
+        display: inline;
+        float: left;
+       
+        padding-right: 10px;
+        left: 0;
+}
+h2{
+        text-align: center;
+        background-color: hsl(0, 0%, 100%);
+        color: rgb(0, 0, 0);
+        padding: 30px;
+        
+
+}
+#status
+{
+        height: 10cm;
+        width: 100%;
+}
+.contect p
+{
+        color: gray;
+        text-align: center;
+}
+.contect
+{
+        text-align: center;
+        background-color: black;
+        padding: 10px;
+}
+.contect h1
+{
+        color: #fff;
+}
+.contect p:hover{
+        color: #fff;
+}
